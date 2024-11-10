@@ -92,127 +92,6 @@
     </div>
 </section>
 
-<div class="modal fade form-modal" id="login" tabindex="-1" aria-hidden="true">
-    <div class="modal-dialog max-width-px-840 position-relative">
-        <button type="button"
-            class="circle-32 btn-reset bg-white pos-abs-tr mt-md-n6 mr-lg-n6 focus-reset z-index-supper"
-            data-dismiss="modal"><i class="lni lni-close"></i></button>
-        <div class="login-modal-main">
-            <div class="row no-gutters">
-                <div class="col-12">
-                    <div class="row">
-                        <div class="heading">
-                            <h3>Login From Here</h3>
-                            <p>Log in to continue your account <br> and explore new jobs.</p>
-                        </div>
-                        <div class="social-login">
-                            <ul>
-                                <li><a class="linkedin" href="#"><i class="lni lni-linkedin-original"></i> Log in
-                                        with LinkedIn</a></li>
-                                <li><a class="google" href="#"><i class="lni lni-google"></i> Log in with
-                                        Google</a></li>
-                                <li><a class="facebook" href="#"><i class="lni lni-facebook-original"></i> Log in
-                                        with Facebook</a></li>
-                            </ul>
-                        </div>
-                        <div class="or-devider">
-                            <span>Or</span>
-                        </div>
-                        <form action="/">
-                            <div class="form-group">
-                                <label for="email" class="label">E-mail</label>
-                                <input type="email" class="form-control" placeholder="example@gmail.com" id="email">
-                            </div>
-                            <div class="form-group">
-                                <label for="password" class="label">Password</label>
-                                <div class="position-relative">
-                                    <input type="password" class="form-control" id="password"
-                                        placeholder="Enter password">
-                                </div>
-                            </div>
-                            <div class="form-group d-flex flex-wrap justify-content-between">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                    <label class="form-check-label" for="flexCheckDefault">Remember password</label>
-                                </div>
-                                <a href="" class="font-size-3 text-dodger line-height-reset">Forget Password</a>
-                            </div>
-                            <div class="form-group mb-8 button">
-                                <button class="btn ">Log in
-                                </button>
-                            </div>
-                            <p class="text-center create-new-account">Don’t have an account? <a href="#">Create a free
-                                    account</a></p>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="modal fade form-modal" id="signup" tabindex="-1" aria-hidden="true">
-    <div class="modal-dialog max-width-px-840 position-relative">
-        <button type="button"
-            class="circle-32 btn-reset bg-white pos-abs-tr mt-md-n6 mr-lg-n6 focus-reset z-index-supper"
-            data-dismiss="modal"><i class="lni lni-close"></i></button>
-        <div class="login-modal-main">
-            <div class="row no-gutters">
-                <div class="col-12">
-                    <div class="row">
-                        <div class="heading">
-                            <h3>Create a free Account <br> Today</h3>
-                            <p>Create your account to continue <br> and explore new jobs.</p>
-                        </div>
-                        <div class="social-login">
-                            <ul>
-                                <li><a class="linkedin" href="#"><i class="lni lni-linkedin-original"></i> Import from
-                                        LinkedIn</a></li>
-                                <li><a class="google" href="#"><i class="lni lni-google"></i> Import from
-                                        Google</a></li>
-                                <li><a class="facebook" href="#"><i class="lni lni-facebook-original"></i> Import from
-                                        Facebook</a></li>
-                            </ul>
-                        </div>
-                        <div class="or-devider">
-                            <span>Or</span>
-                        </div>
-                        <form action="/">
-                            <div class="form-group">
-                                <label for="email" class="label">E-mail</label>
-                                <input type="email" class="form-control" placeholder="example@gmail.com">
-                            </div>
-                            <div class="form-group">
-                                <label for="password" class="label">Password</label>
-                                <div class="position-relative">
-                                    <input type="password" class="form-control" placeholder="Enter password">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label for="password" class="label">Confirm Password</label>
-                                <div class="position-relative">
-                                    <input type="password" class="form-control" placeholder="Enter password">
-                                </div>
-                            </div>
-                            <div class="form-group d-flex flex-wrap justify-content-between">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="">
-                                    <label class="form-check-label" for="flexCheckDefault">Agree to the <a
-                                            href="#">Terms &amp; Conditions</a></label>
-                                </div>
-                            </div>
-                            <div class="form-group mb-8 button">
-                                <button class="btn ">Sign Up
-                                </button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
 <style>
     .add-resume-inner {
         background: #fff;
@@ -220,22 +99,22 @@
         border-radius: 8px;
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
     }
-    
+
     .post-header {
         margin-bottom: 30px;
         text-align: center;
     }
-    
+
     .post-header h3 {
         font-size: 24px;
         color: #333;
         margin-bottom: 0;
     }
-    
+
     .form-group {
         margin-bottom: 20px;
     }
-    
+
     .form-control {
         height: 45px;
         border: 1px solid #e1e1e1;
@@ -243,30 +122,39 @@
         padding: 0 15px;
         transition: all 0.3s ease;
     }
-    
+
     .form-control:focus {
         border-color: #4CAF50;
         box-shadow: none;
     }
-    
+
     .control-label {
         font-weight: 500;
         margin-bottom: 8px;
         display: block;
         color: #555;
     }
-    
-    .status-pago { color: #4CAF50; }
-    .status-pendente { color: #FF9800; }
-    .status-aberto { color: #f44336; }
-    
+
+    .status-pago {
+        color: #4CAF50;
+    }
+
+    .status-pendente {
+        color: #FF9800;
+    }
+
+    .status-aberto {
+        color: #f44336;
+    }
+
     .button-group {
         display: flex;
         gap: 15px;
         justify-content: center;
     }
-    
-    .btn-add, .btn-remove {
+
+    .btn-add,
+    .btn-remove {
         padding: 10px 20px;
         border: none;
         border-radius: 4px;
@@ -278,27 +166,27 @@
         gap: 8px;
         transition: all 0.3s ease;
     }
-    
+
     .btn-add {
         background: #4CAF50;
         color: white;
     }
-    
+
     .btn-add:hover {
         background: #45a049;
         transform: translateY(-1px);
     }
-    
+
     .btn-remove {
         background: #f44336;
         color: white;
     }
-    
+
     .btn-remove:hover {
         background: #da190b;
         transform: translateY(-1px);
     }
-    
+
     .status-indicator {
         width: 10px;
         height: 10px;
@@ -306,19 +194,28 @@
         display: inline-block;
         margin-right: 5px;
     }
-    
-    .status-pago .status-indicator { background: #4CAF50; }
-    .status-pendente .status-indicator { background: #FF9800; }
-    .status-aberto .status-indicator { background: #f44336; }
-    
+
+    .status-pago .status-indicator {
+        background: #4CAF50;
+    }
+
+    .status-pendente .status-indicator {
+        background: #FF9800;
+    }
+
+    .status-aberto .status-indicator {
+        background: #f44336;
+    }
+
     @media (max-width: 768px) {
         .button-group {
             flex-direction: column;
         }
-        
-        .btn-add, .btn-remove {
+
+        .btn-add,
+        .btn-remove {
             width: 100%;
             justify-content: center;
         }
     }
-    </style>
+</style>
