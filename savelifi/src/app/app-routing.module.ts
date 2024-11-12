@@ -6,7 +6,7 @@ import { CadastrodespesasComponent } from './cadastrodespesas/cadastrodespesas.c
 import { CadastroorcamentoComponent } from './cadastroorcamento/cadastroorcamento.component';
 
 const routes: Routes = [
-  { path: "", redirectTo: 'pagina-inicial', pathMatch: 'full' },
+  { path: "", redirectTo: 'paginainicial', pathMatch: 'full' },
   { path: "paginainicial", component: PaginainicialComponent },
   { path: "cadastrousuario", component: CadastrousuarioComponent },
   { path: "cadastrodespesas", component: CadastrodespesasComponent },
